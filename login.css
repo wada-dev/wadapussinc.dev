@@ -1,0 +1,82 @@
+body {
+    background-image: url('images/pexels-joyston-judah-933054.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+.header{
+    
+    color:bisque;
+    text-align: center;
+    padding-top: 50px; 
+}
+.header2{
+    color:bisque;
+    text-align: center;
+    padding-top: 30px;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  input[type="text"], input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+
+  }
+  
+  input[type="submit"] {
+    background-color:bisque;
+  }
+  input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    
+  }
+  input[type="checkbox"]:checked {
+    background-color: bisque; 
+  }
+  label {
+    display: inline-block;
+    margin-left: -15px;
+    margin-right: 150px;
+    color:bisque;
+  }
+
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 80px;
+    margin-top: -30px;
+    gap:20px;
+  }
+  .forgot-password a {
+    color: bisque;
+  }
+  .header3{
+    text-align: center;
+    color:bisque;
+    margin-top: -90px;
+      
+  }
+  .social-buttons button{
+    margin: 0 5px;
+    padding: 10px 30px;
+
+    
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .header h1, .header2 h2, .header3 h3 {
+    text-transform: none;
+  }
+  
