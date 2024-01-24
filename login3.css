@@ -1,0 +1,85 @@
+body {
+    background-image: url('image3/e06d0e4d79c1633e8269de5a62c7acd6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .header{
+    font-size:larger;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: -180px;
+  }
+  .logo{
+    width: 50%;
+    height: auto;
+    margin-right: 5px; 
+    margin-top: -15px;
+    margin-left: 96px;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-top:-170px;
+    
+    
+  }
+
+  .content {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    
+  }
+  .form {
+    width: 400px; 
+  }
+  .form label{
+    color:white;
+    font-size:medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* .form input[type="text"], .form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+  } */
+  .text-space {
+    margin: 20px 0;
+    border-top: 1px solid crimson;
+  }
+
+  .form input[type="submit"] {
+    width: auto;
+    padding: 12px;
+    box-sizing: border-box;
+    border:none;
+    background-color:crimson;
+    color: white;
+    font-size: small;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .footer{
+    text-align: center;
+    margin-top: -130px;
+    color: crimson;
+  
+}
+.footer a{
+    text-decoration: none;
+    
+}
+a span{
+    color: crimson;
+}
